@@ -1,0 +1,22 @@
+GP32 Linux Bootloader
+---------------------
+
+How to use it
+-------------
+Compile and store boot.fxe inside your 'gpmm\' directory. The
+bootloader will look for a directory called 'gpmm\linux\', where
+both 'zimage26' and 'initrd' files must be stored.
+If you're considering compiling it by hand, I'd recommend you to
+fetch a toolchain from DevKitARM and use it. Ask on the GP32
+forums for help or ask us at #gp32dev on irc.efnet.net.
+
+NEWS
+----
+Read the Changelogs inside src/*.c
+
+Author
+------
+The GP32 Linux Bootloader was written by:
+Lucas Correia Villa Real <lucasvr@gobolinux.org>
+
+Based on the bootloader written by DarkFader for the 2.4 series.
